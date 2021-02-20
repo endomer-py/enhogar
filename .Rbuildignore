@@ -1,0 +1,13 @@
+^enhogar\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^data-raw$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$
+^codecov\.yml$
+^contributors\.csv$
+^contributors\.R$
