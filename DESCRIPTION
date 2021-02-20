@@ -1,6 +1,6 @@
 Package: enhogar
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.1.9000
+Version: 0.0.2.9000
 Authors@R: 
     person(given = "Daniel E.",
            family = "de la Rosa",
@@ -12,9 +12,11 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     endomer (>= 0.0.1.9000),
-    lifecycle
+    lifecycle,
+    Dmisc (>= 0.1.7.9001)
 Remotes: 
     endomer/endomer
+    drdsdaniel/Dmisc
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
@@ -25,3 +27,5 @@ Suggests:
     rmarkdown
 RdMacros: lifecycle
 VignetteBuilder: knitr
+URL: https://github.com/endomer/enhogar
+BugReports: https://github.com/endomer/enhogar/issues
