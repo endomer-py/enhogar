@@ -1,0 +1,78 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# enhogar
+
+<!-- badges: start -->
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![R build status](https://github.com/drdsdaniel/enhogar/workflows/R-CMD-check/badge.svg)](https://github.com/drdsdaniel/enhogar/actions)
+[![Codecov test coverage](https://codecov.io/gh/drdsdaniel/enhogar/branch/main/graph/badge.svg)](https://codecov.io/gh/drdsdaniel/enhogar?branch=main)
+[![CRAN status](https://www.r-pkg.org/badges/version/enhogar)](https://CRAN.R-project.org/package=enhogar)
+<!-- badges: end -->
+
+`enhogar` es una interfaz para trabajar con las bases de datos de las ENHOGAR (Encuesta Nacional de Hogares de Propósitos Múltiples) en R. Esta paquete es parte de [endomer](https://endomer.github.io/) un proyecto de código abierto que busca ofrecer interfaces en R para las principales encuestas de la República Dominicana.
+
+## Instalación
+
+`enhogar` no está disponible en CRAN.
+
+<!-- ``` r -->
+<!-- install.packages("enhogar") -->
+<!-- ``` -->
+
+Pero puedes intalar la versión de desarrollo desde [GitHub](https://github.com/) con:
+
+``` r
+tryCatch(
+  library(remotes),
+  error = function(e){
+    install.packages('remotes')
+  }
+)
+remotes::install_github("endomer/enhogar")
+```
+
+## Roadmap
+
+1. Completar el diccionario.
+
+```{r echo=FALSE, message=FALSE}
+source("data-raw/dict18.R")
+Dmisc::progress_bar(length(dict18), 445+length(dict181))
+rm(dict18, dict180, dict181)
+```
+
+2. Completar viñeta de uso básico de la librería.
+2. Agregar validadores a las funciones para garantizar que las variables son del tipo y con el contenido esperado en los cálculos.
+2. Escribir tests
+2. Hacer que todas las funciones trabajen con conexiones a base de datos (Las que usan cut3 específicamente).
+
+## Contribuye
+
+Tienes comentarios o quieres contribuir?
+
+Por favor, revisa las [gias de contribución (en inglés)](https://endomer.github.io/enhogar/CONTRIBUTING.html).
+
+Ten en cuenta que el proyecto `enhogar` está sujeto a un [Código del contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.html). Contribuyendo con el proyecto aceptas los términos y condiciones.
+
+
+
+<hr/>
+
+```{r echo=FALSE}
+Dmisc::big_button("Guía de inicio rápido", "./articles/enhogar.html")
+```
+
