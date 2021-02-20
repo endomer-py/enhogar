@@ -20,7 +20,7 @@ status](https://www.r-pkg.org/badges/version/enhogar)](https://CRAN.R-project.or
 
 `enhogar` es una interfaz para trabajar con las bases de datos de las
 ENHOGAR (Encuesta Nacional de Hogares de Propósitos Múltiples) en R.
-Esta paquete es parte de [endomer](https://endomer.github.io/) un
+Este paquete es parte de [endomer](https://endomer.github.io/) un
 proyecto de código abierto que busca ofrecer interfaces en R para las
 principales encuestas de la República Dominicana.
 
