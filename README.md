@@ -11,9 +11,9 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![R build
-status](https://github.com/drdsdaniel/enhogar/workflows/R-CMD-check/badge.svg)](https://github.com/drdsdaniel/enhogar/actions)
+status](https://github.com/endomer/enhogar/workflows/R-CMD-check/badge.svg)](https://github.com/endomer/enhogar/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/drdsdaniel/enhogar/branch/main/graph/badge.svg)](https://codecov.io/gh/drdsdaniel/enhogar?branch=main)
+coverage](https://codecov.io/gh/endomer/enhogar/branch/main/graph/badge.svg)](https://codecov.io/gh/endomer/enhogar?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/enhogar)](https://CRAN.R-project.org/package=enhogar)
 <!-- badges: end -->
