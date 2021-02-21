@@ -15,7 +15,7 @@ Imports:
     lifecycle,
     Dmisc (>= 0.1.7.9001)
 Remotes: 
-    endomer/endomer
+    endomer/endomer,
     drdsdaniel/Dmisc
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
