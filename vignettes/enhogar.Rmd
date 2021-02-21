@@ -1,0 +1,19 @@
+---
+title: "Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR)"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{enhogar}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(enhogar)
+```
