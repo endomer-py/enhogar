@@ -1,12 +1,18 @@
 Package: enhogar
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.2.9000
+Title: Funciones para trabajar con la ENHOGAR
+Version: 0.0.3.9000
 Authors@R: 
+    c(
     person(given = "Daniel E.",
            family = "de la Rosa",
            role = c("aut", "cre"),
-           email = "drdsdaniel@gmail.com")
-Description: What the package does (one paragraph).
+           email = "drdsdaniel@gmail.com"),
+    person(given = "María A.",
+           family = "Majluta Yeb",
+           role = c("aut"),
+           email = "maria.majluta12@gmail.com"))
+Description: Este paquete contiene funciones para trabajar con los datos de la 
+  Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
