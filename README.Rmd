@@ -57,14 +57,14 @@ rm(dict18, dict180, dict181)
 
 2. Completar viñeta de uso básico de la librería.
 2. Agregar validadores a las funciones para garantizar que las variables son del tipo y con el contenido esperado en los cálculos.
-2. Escribir tests
+2. Escribir tests.
 2. Hacer que todas las funciones trabajen con conexiones a base de datos (Las que usan cut3 específicamente).
 
 ## Contribuye
 
-Tienes comentarios o quieres contribuir?
+¿Tienes comentarios o quieres contribuir?
 
-Por favor, revisa las [gias de contribución (en inglés)](https://endomer.github.io/enhogar/CONTRIBUTING.html).
+Por favor, revisa las [guías de contribución (en inglés)](https://endomer.github.io/enhogar/CONTRIBUTING.html).
 
 Ten en cuenta que el proyecto `enhogar` está sujeto a un [Código del contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.html). Contribuyendo con el proyecto aceptas los términos y condiciones.
 
