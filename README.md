@@ -49,7 +49,8 @@ remotes::install_github("endomer/enhogar")
 
 ## Roadmap
 
-1.  Completar el diccionario.
+1.  Completar el diccionario. (Falta el diccionario del módulo de
+    embarazo en adolescentes, los de Hogares y Personas están completos)
 
 <div style="display:inline-block;
              vertical-align:baseline;
@@ -70,9 +71,9 @@ color: #fff;
 text-align: center;
 box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
 transition: width .6s ease;
-background-color: #d9534f;  width: 21.3%;">
+background-color: #f0ad4e;  width: 32.4%;">
 
-  21.3%
+  32.4%
 
 </div>
   </div>

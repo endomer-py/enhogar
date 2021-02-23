@@ -47,7 +47,7 @@ remotes::install_github("endomer/enhogar")
 
 ## Roadmap
 
-1. Completar el diccionario.
+1. Completar el diccionario. (Falta el diccionario del módulo de embarazo en adolescentes, los de Hogares y Personas están completos)
 
 ```{r echo=FALSE, message=FALSE}
 source("data-raw/dict18.R")
