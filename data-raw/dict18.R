@@ -682,7 +682,32 @@ dict180 <- list(
 
 
 
-dict181 <- list()
+dict181 <- list(
+  desocupado = list(
+    lab = "Poblaci\\u00f3n desocupada",
+    labs = c("Desocupado" = 1, "No desocupado" = 0)
+  ),
+  fuerza_trabajo_potencial = list(
+    lab = "Fuerza de Trabajo Potencial (FTP)",
+    labs = c("FTP" = 1, "No FTP" = 0)
+  ),
+  inactivo = list(
+    lab = "Poblaci\\u00f3n No Econ\\u00f3micamente Actica (PNEA) - Inactivo",
+    labs = c("Inactivo" = 1, "No inactivo" = 0)
+  ),
+  ocupado = list(
+    lab = "Poblaci\\u00f3n ocupada",
+    labs = c("Ocupado" = 1, "No ocupado" = 0)
+  ),
+  pea = list(
+    lab = "Poblaci\\u00f3n Econ\\u00f3micamente Activa (PEA)",
+    labs = c("PEA" = 1, "No PEA" = 0)
+  ),
+  pet = list(
+    lab = "Poblaci\\u00f3n en Edad de Trabajar (PET)",
+    labs = c("PET" = 1, "No PET" = 0)
+  )
+)
 
 dict18 <- append(dict180, dict181)
 

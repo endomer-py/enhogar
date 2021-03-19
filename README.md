@@ -70,9 +70,9 @@ color: #fff;
 text-align: center;
 box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
 transition: width .6s ease;
-background-color: #f0ad4e;  width: 32.4%;">
+background-color: #f0ad4e;  width: 33.3%;">
 
-  32.4%
+  33.3%
 
 </div>
   </div>
