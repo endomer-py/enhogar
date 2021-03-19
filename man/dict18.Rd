@@ -3,12 +3,12 @@
 \docType{data}
 \name{dict18}
 \alias{dict18}
-\title{Diccionario para los datos de las encuestas ENHOGAR}
+\title{Diccionario para los datos de las encuestas ENHOGAR 2018}
 \format{
 \link{list}
 }
 \source{
-\url{https://github.com/endomer/enhogar/tree/master/Files/Cuestionarios/}
+\url{https://github.com/endomer/enhogar/tree/main/Files/Cuestionarios/}
 }
 \usage{
 dict18
