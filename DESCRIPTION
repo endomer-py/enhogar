@@ -1,6 +1,6 @@
 Package: enhogar
 Title: Funciones para trabajar con la ENHOGAR
-Version: 0.0.4.9000
+Version: 0.0.5.9000
 Authors@R: 
     c(
     person(given = "Daniel E.",

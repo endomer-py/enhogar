@@ -29,9 +29,7 @@ principales encuestas de la República Dominicana.
 `enhogar` no está disponible en CRAN.
 
 <!-- ``` r -->
-
 <!-- install.packages("enhogar") -->
-
 <!-- ``` -->
 
 Pero puedes intalar la versión de desarrollo desde
@@ -50,7 +48,8 @@ remotes::install_github("endomer/enhogar")
 ## Roadmap
 
 1.  Completar el diccionario. (Falta el diccionario del módulo de
-    embarazo en adolescentes, los de Hogares y Personas están completos)
+    embarazo en adolescentes, **los de Hogares y Personas están
+    completos**)
 
 <div style="display:inline-block;
              vertical-align:baseline;
@@ -97,7 +96,6 @@ contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.h
 Contribuyendo con el proyecto aceptas los términos y condiciones.
 
 <hr/>
-
 <a href="./articles/enhogar.html"><button type="button"
 style = "
     border: 1px solid transparent;
