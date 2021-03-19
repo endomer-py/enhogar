@@ -1,6 +1,6 @@
 Package: enhogar
 Title: Funciones para trabajar con la ENHOGAR
-Version: 0.0.3.9000
+Version: 0.0.4.9000
 Authors@R: 
     c(
     person(given = "Daniel E.",
@@ -18,11 +18,9 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     endomer (>= 0.0.1.9000),
-    lifecycle,
-    Dmisc (>= 0.1.7.9001)
+    lifecycle
 Remotes: 
-    endomer/endomer,
-    drdsdaniel/Dmisc
+    endomer/endomer
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
