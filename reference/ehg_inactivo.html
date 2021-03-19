@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Utiliza las etiquetas de datos de una variable — ehg_useLabels • enhogar</title>
+<title>Población No Económicamente Activa (PNEA) - Inactivos — ehg_inactivo • enhogar</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,13 @@
 
 
 
-<meta property="og:title" content="Utiliza las etiquetas de datos de una variable — ehg_useLabels" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="Población No Económicamente Activa (PNEA) - Inactivos — ehg_inactivo" />
+<meta property="og:description" content="Población No Económicamente Activa: Porción de la población en edad de
+trabajar que no trabaja, no buscó trabajo activamente en las últimas cuatro
+semanas, ni esta disponible para el trabajo; se incluye a los estudiantes,
+las amas de casa, los rentistas, jubilados, los incapacitados para trabajar
+y los vagos.
+Glosario de términos - Banco Central de la República Dominicana" />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -119,49 +124,49 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Utiliza las etiquetas de datos de una variable</h1>
-    <small class="dont-index">Source: <a href='https://github.com/endomer/enhogar/blob/master/R/ehg_Labels.R'><code>R/ehg_Labels.R</code></a></small>
-    <div class="hidden name"><code>ehg_useLabels.Rd</code></div>
+    <h1>Población No Económicamente Activa (PNEA) - Inactivos</h1>
+    <small class="dont-index">Source: <a href='https://github.com/endomer/enhogar/blob/master/R/ehg_inactivo.R'><code>R/ehg_inactivo.R</code></a></small>
+    <div class="hidden name"><code>ehg_inactivo.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p><a href='https://lifecycle.r-lib.org/articles/stages.html#experimental'><img src='figures/lifecycle-experimental.svg' alt='[Experimental]' /></a></p>
+    <p>Población No Económicamente Activa: Porción de la población en edad de
+trabajar que no trabaja, no buscó trabajo activamente en las últimas cuatro
+semanas, ni esta disponible para el trabajo; se incluye a los estudiantes,
+las amas de casa, los rentistas, jubilados, los incapacitados para trabajar
+y los vagos.
+<strong>Glosario de términos - Banco Central de la República Dominicana</strong></p>
     </div>
 
-    <pre class="usage"><span class='fu'>ehg_useLabels</span><span class='op'>(</span><span class='va'>tbl</span>, vars <span class='op'>=</span> <span class='cn'>NULL</span>, year <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>ehg_inactivo</span><span class='op'>(</span><span class='va'>tbl</span>, min_edad <span class='op'>=</span> <span class='fl'>15</span>, max_edad <span class='op'>=</span> <span class='cn'>Inf</span><span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>tbl</th>
-      <td><p><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a>: Conexión a base de datos o dataframe con los datos</p></td>
+      <td><p><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a>: dataset con los datos de la encuesta</p></td>
     </tr>
     <tr>
-      <th>vars</th>
-      <td><p><a href='https://rdrr.io/r/base/character.html'>character</a>: Si especificado, solo se asignaran las etiquetas a esas variables.</p></td>
+      <th>min_edad</th>
+      <td><p><a href='https://rdrr.io/r/base/numeric.html'>numeric</a>: Edad mínima a la que está permitido trabajar. Vea
+<code><a href='ehg_pet.html'>ehg_pet</a></code> para más detalles.</p></td>
     </tr>
     <tr>
-      <th>year</th>
-      <td><p><a href='https://rdrr.io/r/base/numeric.html'>numeric</a>: año de la encuesta con la que está trabajando.
-<code>null</code> por defecto, y la función intenta determinar el año a partir de la
-variable <code>"HANO"</code> si está presente en los datos</p></td>
+      <th>max_edad</th>
+      <td><p><a href='https://rdrr.io/r/base/numeric.html'>numeric</a>: Edad máxima a la que está permitido trabajar. Vea
+<code><a href='ehg_pet.html'>ehg_pet</a></code> para más detalles.</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Los datos suministrados en el argumento <code>tbl</code>, pero en lugar de
-valores utilizando las etiquetas de datos correspondientes</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p>Etiquetas de datos <code>vignette("labels", package = "endomer")</code></p></div>
+    <p><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a>: los datos suministrados en el input <code>tbl</code> con las
+variables <code>pet</code>, <code>ocupado</code>, <code>desocupado</code>, <code>pea</code> e <code>inactivo</code> agregadas.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
-  <span class='va'>ehg18</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='op'>(</span>ZONA <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>, <span class='fl'>2</span><span class='op'>)</span><span class='op'>)</span>
-  <span class='va'>ehg18</span>
-  <span class='fu'>ftc_useLabels</span><span class='op'>(</span><span class='va'>ehg18</span><span class='op'>)</span>
+  <span class='va'>enhogar</span> <span class='op'>&lt;-</span> <span class='fu'><a href='ehg_fuerza_trabajo_potencial.html'>ehg_fuerza_trabajo_potencial</a></span><span class='op'>(</span><span class='va'>enhogar</span><span class='op'>)</span>
 <span class='op'>}</span>
 </div></pre>
   </div>
