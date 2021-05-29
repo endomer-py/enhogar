@@ -33,5 +33,5 @@ Suggests:
     rmarkdown
 RdMacros: lifecycle
 VignetteBuilder: knitr
-URL: https://github.com/endomer/enhogar
+URL: https://github.com/endomer/enhogar, https://endomer.github.io/enhogar/
 BugReports: https://github.com/endomer/enhogar/issues
