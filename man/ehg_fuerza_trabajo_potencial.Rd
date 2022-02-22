@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_fuerza_trabajo_potencial.R
 \name{ehg_fuerza_trabajo_potencial}
 \alias{ehg_fuerza_trabajo_potencial}
-\title{Fuerza de trabajo potencial}
+\title{Fuerza de trabajo potencial
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_fuerza_trabajo_potencial(tbl, min_edad = 15, max_edad = Inf)
 }

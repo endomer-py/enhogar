@@ -1,4 +1,5 @@
 #' Fuerza de trabajo potencial
+#' `r lifecycle::badge("experimental")`
 #'
 #'    Abarque a las personas que hayan manifestado su interés en trabajar,
 #'    y que actualmente se contabilizan como personas fuera de la fuerza de trabajo.

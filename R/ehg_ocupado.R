@@ -1,4 +1,5 @@
 #' Población ocupada
+#' `r lifecycle::badge("experimental")`
 #'
 #'  Población Ocupada (PO): Personas en edad de trabajar \code{\link{ehg_pet}},
 #'  que labora por lo menos una hora en el período de referencia.

@@ -1,4 +1,5 @@
 #' Población No Económicamente Activa (PNEA) - Inactivos
+#' `r lifecycle::badge("experimental")`
 #'
 #'   Población No Económicamente Activa: Porción de la población en edad de
 #'   trabajar que no trabaja, no buscó trabajo activamente en las últimas cuatro

@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_pet.R
 \name{ehg_pet}
 \alias{ehg_pet}
-\title{Población en Edad de Trabajar (PET)}
+\title{Población en Edad de Trabajar (PET)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_pet(tbl, min_edad = 15, max_edad = Inf)
 }

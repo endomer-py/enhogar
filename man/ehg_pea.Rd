@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_pea.R
 \name{ehg_pea}
 \alias{ehg_pea}
-\title{Población Económicamente Activa (PEA)}
+\title{Población Económicamente Activa (PEA)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_pea(tbl, min_edad = 15, max_edad = Inf)
 }

@@ -1,30 +1,29 @@
 Package: enhogar
 Title: Funciones para trabajar con la ENHOGAR
-Version: 0.1.0.9000
+Version: 0.2.0
 Authors@R: 
-    c(
-    person(given = "Daniel E.",
+    c(person(given = "Daniel E.",
            family = "de la Rosa",
            role = c("aut", "cre"),
-           email = "drdsdaniel@gmail.com"),
-    person(given = "María A.",
-           family = "Majluta Yeb",
-           role = c("aut"),
-           email = "maria.majluta12@gmail.com"))
+           email = "me@dnldelarosa.com"),
+    person(given = "Adatar",
+           role = "cph"))
 Description: Este paquete contiene funciones para trabajar con los datos de la 
   Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    endomer (>= 0.0.1.9000),
+    labeler,
     lifecycle,
     magrittr,
-    dplyr
+    dplyr,
+    cli,
+    stringr
 Remotes: 
-    endomer/endomer
+    adatar-do/labeler
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
 Suggests: 
@@ -33,5 +32,5 @@ Suggests:
     rmarkdown
 RdMacros: lifecycle
 VignetteBuilder: knitr
-URL: https://github.com/endomer/enhogar, https://endomer.github.io/enhogar/
-BugReports: https://github.com/endomer/enhogar/issues
+URL: https://github.com/endomer-py/enhogar, https://endomer-py.github.io/enhogar/
+BugReports: https://github.com/endomer-py/enhogar/issues

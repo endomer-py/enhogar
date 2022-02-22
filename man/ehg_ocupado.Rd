@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_ocupado.R
 \name{ehg_ocupado}
 \alias{ehg_ocupado}
-\title{Población ocupada}
+\title{Población ocupada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_ocupado(tbl, min_edad = 15, max_edad = Inf)
 }

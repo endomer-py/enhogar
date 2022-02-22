@@ -1,4 +1,5 @@
 #' Población en Edad de Trabajar (PET)
+#' `r lifecycle::badge("experimental")`
 #'
 #'   Comprende todas las personas en edad legalmente aceptada para trabajar.
 #'   En el caso de la República Dominicana la edad mínima es 15 años, y no existe
