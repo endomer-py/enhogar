@@ -1,4 +1,5 @@
 #' Población desocupada
+#' `r lifecycle::badge("experimental")`
 #'
 #'   Desocupación Abierta (PDAb): Población de 10 años y más que en el período
 #'   de referencia declaró no tener trabajo, que están disponibles para trabajar

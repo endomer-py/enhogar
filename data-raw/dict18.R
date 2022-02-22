@@ -1,3 +1,6 @@
+library(haven)
+devtools::load_all("G:/My Drive/Projects/Adatar/labeler/")
+
 dict180 <- list(
   CUEST_HOGAR = list(lab = "N\\u00famero del cuestionario"),
   Factor_expansion = list(lab = "Factor de expansi\\u00f3n"),
@@ -679,7 +682,9 @@ dict180 <- list(
   )
 )
 
+Adolescentes_ENH2018 <- read_sav("G:/My Drive/Databases/ENHOGAR/DBFiles/ENHOGAR 2018/Adolescentes_ENH2018.sav")
 
+dict180 <- append(dict180, labeler::get_dict(Adolescentes_ENH2018))
 
 
 dict181 <- list(

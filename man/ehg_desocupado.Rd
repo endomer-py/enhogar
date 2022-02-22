@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_desocupado.R
 \name{ehg_desocupado}
 \alias{ehg_desocupado}
-\title{Población desocupada}
+\title{Población desocupada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_desocupado(tbl, min_edad = 15, max_edad = Inf)
 }

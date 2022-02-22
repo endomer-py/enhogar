@@ -2,7 +2,8 @@
 % Please edit documentation in R/ehg_inactivo.R
 \name{ehg_inactivo}
 \alias{ehg_inactivo}
-\title{Población No Económicamente Activa (PNEA) - Inactivos}
+\title{Población No Económicamente Activa (PNEA) - Inactivos
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ehg_inactivo(tbl, min_edad = 15, max_edad = Inf)
 }

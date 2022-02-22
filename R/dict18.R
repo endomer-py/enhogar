@@ -4,5 +4,5 @@
 #'
 #' @format [list]
 #'
-#' @source \url{https://github.com/endomer/enhogar/tree/main/Files/Cuestionarios/}
+#' @source \url{https://github.com/endomer-py/enhogar/tree/main/Files/Cuestionarios/}
 "dict18"

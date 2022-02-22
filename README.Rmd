@@ -19,12 +19,12 @@ source("contributors.R")
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![R build status](https://github.com/endomer/enhogar/workflows/R-CMD-check/badge.svg)](https://github.com/endomer/enhogar/actions)
-[![Codecov test coverage](https://codecov.io/gh/endomer/enhogar/branch/main/graph/badge.svg)](https://codecov.io/gh/endomer/enhogar?branch=main)
+[![R build status](https://github.com/endomer-py/enhogar/workflows/R-CMD-check/badge.svg)](https://github.com/endomer-py/enhogar/actions)
+[![Codecov test coverage](https://codecov.io/gh/endomer-py/enhogar/branch/main/graph/badge.svg)](https://codecov.io/gh/endomer-py/enhogar?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/enhogar)](https://CRAN.R-project.org/package=enhogar)
 <!-- badges: end -->
 
-`enhogar` es una interfaz para trabajar con las bases de datos de las ENHOGAR (Encuesta Nacional de Hogares de Propósitos Múltiples) en R. Este paquete es parte de [endomer](https://endomer.github.io/) un proyecto de código abierto que busca ofrecer interfaces en R para las principales encuestas de la República Dominicana.
+`enhogar` es una interfaz para trabajar con las bases de datos de las ENHOGAR (Encuesta Nacional de Hogares de Propósitos Múltiples) en R. Este paquete es parte de [endomer-py](https://endomer-py.github.io/) un proyecto de código abierto que busca ofrecer interfaces en R para las principales encuestas de la República Dominicana.
 
 ## Instalación
 
@@ -34,7 +34,7 @@ source("contributors.R")
 <!-- install.packages("enhogar") -->
 <!-- ``` -->
 
-Pero puedes intalar la versión de desarrollo desde [GitHub](https://github.com/) con:
+Pero puedes instalar la versión de desarrollo desde [GitHub](https://github.com/) con:
 
 ``` r
 tryCatch(
@@ -43,16 +43,16 @@ tryCatch(
     install.packages('remotes')
   }
 )
-remotes::install_github("endomer/enhogar")
+remotes::install_github("endomer-py/enhogar")
 ```
  
 ## Roadmap
 
-1. Completar el diccionario. (Falta el diccionario del módulo de embarazo en adolescentes, __los de Hogares y Personas están completos__)
+1. Completar el diccionario. (2018 completo)
 
 ```{r echo=FALSE, message=FALSE}
 source("data-raw/dict18.R")
-Dmisc::progress_bar(length(dict18), 445+length(dict181))
+Dmisc::progress_bar(length(dict18), 450+length(dict181))
 rm(dict18, dict180, dict181)
 ```
 
@@ -65,7 +65,7 @@ rm(dict18, dict180, dict181)
 
 ¿Tienes comentarios o quieres contribuir?
 
-Por favor, revisa las [guías de contribución (en inglés)](https://endomer.github.io/enhogar/CONTRIBUTING.html).
+Por favor, revisa las [guías de contribución (en inglés)](https://endomer-py.github.io/enhogar/CONTRIBUTING.html).
 
 Ten en cuenta que el proyecto `enhogar` está sujeto a un [Código del contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.html). Contribuyendo con el proyecto aceptas los términos y condiciones.
 
